@@ -2494,6 +2494,24 @@ img {
     display: none;
     margin-left: 220px;
 }
+
+@media only screen and (max-width: 767px) {
+    #quarter {
+        float: left;
+        margin-left: 60px;
+
+    }
+
+    #semi {
+        float: left;
+        margin-left: 60px;
+    }
+
+    #final {
+        float: left;
+        margin-left: 60px;
+    }
+}
 /* ====== The End ====== */
 
 
