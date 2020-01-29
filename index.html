@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Fantasy Premiere League</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/EDC.png" type="image/icon type">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <script>
+    function forfinal(){
+        document.getElementById('final').style.display="block";
+        document.getElementById('semi').style.display="none";
+        document.getElementById('quarter').style.display="none";
+        
+    }
+        function for32(){
+        document.getElementById('final').style.display="none";
+            document.getElementById('semi').style.display="none";
+            document.getElementById('quarter').style.display="none";
+    }
+        function for16(){
+        document.getElementById('final').style.display="none";
+            document.getElementById('semi').style.display="none";
+            document.getElementById('quarter').style.display="none";
+    }
+        function forquarter(){
+        document.getElementById('final').style.display="none";
+            document.getElementById('semi').style.display="none";
+            document.getElementById('quarter').style.display="block";
+    }
+        function forsemi(){
+        document.getElementById('final').style.display="none";
+        document.getElementById('quarter').style.display="none";
+        document.getElementById('semi').style.display="block";
+            
+    }
+        
+    
+    </script>
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area wow fadeInDown" data-wow-delay="500ms">
+        <!-- Top Header Area -->
+        <!--
+        <div class="top-header-area">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 d-flex align-items-center justify-content-between">
+                        <Logo Area
+                       
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+        <!-- Navbar Area -->
+        <div class="egames-main-menu" id="sticker">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="egamesNav">
+                        <div class="logo">
+                            <a href="#"><img src="img/ESUMMITBLACKLOGO.png"></a>
+                        </div>
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#Scorecard">Scorecard</a></li>
+                                    <li><a href="#contact-section">Contact</a></li>
+                                </ul>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Hero Area Start ##### -->
+    <div class="hero-area">
+        <!-- Hero Post Slides -->
+
+        <!-- Single Slide -->
+        <div class="single-slide bg-img bg-overlay" style="background-image: url(img/cricket-ground.jpg); background-size:cover; background-position: center;">
+            <!-- Blog Content -->
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 col-lg-9">
+                        <div class="blog-content" data-animation="fadeInUp" data-delay="100ms">
+                            <h2 data-animation="fadeInUp" data-delay="400ms">Fantasy Premiere League</h2>
+                            <p data-animation="fadeInUp" data-delay="700ms">Do you have what it takes to make it to the final and lift the trophy ? Then get your kit and be ready to design the dream team in a challenging scenario. It's time to lead your team to glory in this enthralling competition
+                                where a virutal match simulator will be used. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Hero Area End ##### -->
+    <!-- ##### Monthly Picks Area Start ##### -->
+    <section class="monthly-picks-area section-padding-100 bg-pattern">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="left-right-pattern"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="Scorecard">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Title -->
+                    <h2 class="section-title mb-70 wow fadeInUp" data-wow-delay="100ms">ScoreCard</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-tabs wow fadeInUp" data-wow-delay="300ms" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="popular-tab" data-toggle="tab" href="#top32" role="tab" aria-controls="popular" aria-selected="true" onclick="for32();">Top 32</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="latest-tab" data-toggle="tab" href="#top16" role="tab" aria-controls="latest" aria-selected="false" onclick="for16();">Top 16</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="latest-tab" data-toggle="tab" href="#quarter" role="tab" aria-controls="editor" aria-selected="false" onclick="forquarter();">Quarter Finals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="latest-tab" data-toggle="tab" href="#semi" role="tab" aria-controls="editor" aria-selected="false" onclick="forsemi();">Semi Finals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="latest-tab" data-toggle="tab" href="#final" role="tab" aria-controls="editor" aria-selected="false" onclick="forfinal();">Finals</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-content wow fadeInUp" data-wow-delay="500ms" id="myTabContent">
+            <div class="tab-pane fade show active" id="top32" role="tabpanel" aria-labelledby="popular-tab">
+                <!-- Popular Games Slideshow -->
+                <div class="popular-games-slideshow owl-carousel">
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/50.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">India vs Australia</a>
+                            <div class="meta-data">
+
+                                <a href="#">View full scorecard</a>
+                                <a href="#">India Won</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/51.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/52.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/53.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/54.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/52.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/53.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/54.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/54.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/54.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/54.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/54.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/54.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/54.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/54.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/54.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab-pane fade" id="top16" role="tabpanel" aria-labelledby="latest-tab">
+                <!-- Latest Games Slideshow -->
+                <div class="latest-games-slideshow owl-carousel">
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/50.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/51.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/52.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/53.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/54.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/50.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/51.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/52.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+<!--
+            <div class="tab-pane fade" id="quarter" role="tabpanel" aria-labelledby="latest-tab">
+                <-- Editor Games Slideshow ->
+                <div class="editor-games-slideshow owl-carousel">
+
+                    <-- Single Games ->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/50.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <-- Single Games ->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/51.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <-- Single Games ->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/52.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <-- Single Games ->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/53.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+-->
+<div id="quarter">
+     <div class="game1">
+                  <a href="img/white%20full.png" ><img src="img/bg-img/50.jpg" alt="" width="248.25" height="508.53"></a>
+                  <div class="game-title">
+                      <pre id="own">India Vs Australia</pre>
+                       <pre id="own2">User: 9.1/10     India Won
+                       </pre>
+                  </div>
+                  
+                  </div>
+                   <div class="game1">
+                  <a href="img/white%20full.png" ><img src="img/bg-img/51.jpg" alt="" width="248.25" height="508.53"></a>
+                  <div class="game-title">
+                      <pre id="own">India Vs Australia</pre>
+                       <pre id="own2">User: 9.1/10     India Won
+                       </pre>
+                  </div>
+                  
+                  </div>
+                   <div class="game1">
+                  <a href="img/white%20full.png" ><img src="img/bg-img/52.jpg" alt="" width="248.25" height="508.53"></a>
+                  <div class="game-title">
+                      <pre id="own">India Vs Australia</pre>
+                       <pre id="own2">User: 9.1/10     India Won
+                       </pre>
+                  </div>
+                  
+                  </div>
+                   <div class="game1">
+                  <a href="img/white%20full.png" ><img src="img/bg-img/53.jpg" alt="" width="248.25" height="508.53"></a>
+                  <div class="game-title">
+                      <pre id="own">India Vs Australia</pre>
+                       <pre id="own2">User: 9.1/10     India Won
+                       </pre>
+                  </div>
+                  </div>
+</div>
+
+<!--
+            <div class="tab-pane fade" id="semi" role="tabpanel" aria-labelledby="latest-tab">
+                <-- Editor Games Slideshow ->
+                <div class="editor-games-slideshow owl-carousel">
+
+                    <-- Single Games ->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/50.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <-- Single Games ->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/51.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+-->
+              <div id="semi">
+                 <div class="game1">
+                  <a href="img/white%20full.png" ><img src="img/bg-img/50.jpg" alt="" width="248.25" height="508.53"></a>
+                  <div class="game-title">
+                      <pre id="own">India Vs Australia</pre>
+                       <pre id="own2">User: 9.1/10     India Won
+                       </pre>
+                  </div>
+                  
+                  </div>
+                   <div class="game1">
+                  <a href="img/white%20full.png" ><img src="img/bg-img/51.jpg" alt="" width="248.25" height="508.53"></a>
+                  <div class="game-title">
+                      <pre id="own">India Vs Australia</pre>
+                       <pre id="own2">User: 9.1/10     India Won
+                       </pre>
+                  </div>
+                  </div>
+                  
+      </div>
+
+<!--
+            <div class="tab-pane fade" id="final" role="tabpanel" aria-labelledby="latest-tab">
+                <-- Editor Games Slideshow ->
+                <div class="editor-games-slideshow owl-carousel">
+
+                    <-- Single Games ->
+                    <div class="single-games-slide">
+                        <a href="img/white%20full.png"><img src="img/bg-img/50.jpg" alt=""></a>
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Grand Theft Auto V</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+-->
+       <div id="final">
+                  <a href="img/white%20full.png" ><img src="img/bg-img/50.jpg" alt="" width="248.25" height="508.53"></a>
+                  <div class="game-title">
+                      <pre id="own">India Vs Australia</pre>
+                       <pre id="own2">User: 9.1/10     India Won
+                       </pre>
+                  </div>
+                  
+      </div>
+    </div>
+
+
+    </section>
+    <!-- ##### Monthly Picks Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="ftco-footer ftco-section" id="contact-section">
+        <div class="container">
+            <div class="row mb-5">
+                <!-- <div class="col-md">
+                    <img src="images/Thapar.jpg" alt="Thapar">
+                </div> -->
+
+                <div class="col-md-8 col-sm-12">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Contact</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="icon icon-map-marker"></span><span class="text">Thapar Institute of Engineering and Technology, Patiala, 147001, Punjab</span></li><br>
+                                <li><a href="tel:+91-8556865862"><span class="icon icon-phone"></span><span class="text">Vidhan Vijay&nbsp;</span>&nbsp;<span class="text">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91-8556865862</span></a></li>
+                                <li><a href="tel:+91-9814244351"><span class="icon icon-phone"></span><span class="text">Arshita Vashisht&nbsp;</span>&nbsp;<span class="text">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91-9814244351</span></a></li>
+                                <li><a href="mailto:tuedcell@gmail.com"><span class="icon icon-envelope"></span><span class="text">tuedcell@gmail.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+
+                    <img src="img/white%20full.png" alt="Thapar" class="EDC"></div>
+
+            </div>
+            <div class="row">
+                <div class="col-md col-sm-12">
+                    <div class="ftco-footer-widget mb-4">
+                        <!--h2 class="ftco-heading-2">About MeetUp.</h2-->
+                        <!--p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p-->
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                            <li class="ftco-animate"><a href="www.edctiet.co.in"><span class="icon-web"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.facebook.com/tuedcell/"><span class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.instagram.com/edc_tiet/"><span class="icon-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+</body>
+
+</html>
